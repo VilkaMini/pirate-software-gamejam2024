@@ -17,6 +17,14 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Player","order":1,"path":"folders/Sprites/Player.yy",},
+    {"name":"Park","order":2,"path":"folders/Sprites/Park.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_trashRobot_left","order":2,"path":"sprites/spr_trashRobot_left/spr_trashRobot_left.yy",},
+    {"name":"Grass_tile_single_spritesheet","order":2,"path":"sprites/Grass_tile_single_spritesheet/Grass_tile_single_spritesheet.yy",},
+    {"name":"Small_tree","order":1,"path":"sprites/Small_tree/Small_tree.yy",},
+    {"name":"spr_trashRobot_down","order":1,"path":"sprites/spr_trashRobot_down/spr_trashRobot_down.yy",},
+    {"name":"spr_trashRobot_up","order":3,"path":"sprites/spr_trashRobot_up/spr_trashRobot_up.yy",},
+  ],
 }

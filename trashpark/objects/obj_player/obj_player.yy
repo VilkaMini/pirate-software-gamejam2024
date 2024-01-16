@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_TrashRobot",
-    "path": "sprites/spr_TrashRobot/spr_TrashRobot.yy",
+    "name": "spr_trashRobot_right",
+    "path": "sprites/spr_trashRobot_right/spr_trashRobot_right.yy",
   },
   "spriteMaskId": null,
   "visible": true,
