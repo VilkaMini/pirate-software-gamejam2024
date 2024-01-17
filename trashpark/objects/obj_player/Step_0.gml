@@ -3,8 +3,14 @@
 h_speed = movement_speed * (global.bt_right - global.bt_left)
 v_speed = movement_speed * (global.bt_up - global.bt_down)
 
-x += h_speed;
-y -= v_speed;
+if (!place_meeting(x + h_speed, y, decoration_object_parent))
+{
+	x += h_speed;
+}
+if (!place_meeting(x, y - v_speed, decoration_object_parent))
+{
+	y -= v_speed;
+}
 
 if (h_speed > 0){
 	sprite_index = spr_trashRobot_right;
