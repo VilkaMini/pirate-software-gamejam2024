@@ -13,14 +13,22 @@ if (!place_meeting(x, y - v_speed, decoration_object_parent))
 }
 
 if (h_speed > 0){
-	sprite_index = spr_trashRobot_right;
+	current_movement_angle = 0;
+	//sprite_index = spr_trashRobot_right;
 }
 else if (h_speed < 0){
-	sprite_index = spr_trashRobot_left;
+	current_movement_angle = 180;
+	//sprite_index = spr_trashRobot_left;
 }
 else if (v_speed < 0){
-	sprite_index = spr_trashRobot_down;
+	current_movement_angle = 270;
+	//sprite_index = spr_trashRobot_down;
 }
 else if (v_speed > 0){
-	sprite_index = spr_trashRobot_up;
+	current_movement_angle = 90;
+	//sprite_index = spr_trashRobot_up;
 }
+
+cone_object.movement_dir_angle = current_movement_angle;
+image_angle = current_movement_angle;
+depth = -y;
