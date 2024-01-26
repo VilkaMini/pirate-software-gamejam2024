@@ -3,11 +3,11 @@
 h_speed = movement_speed * (global.bt_right - global.bt_left)
 v_speed = movement_speed * (global.bt_up - global.bt_down)
 
-if (!place_meeting(x + h_speed, y, decoration_object_parent))
+if (!place_meeting(x + h_speed, y, [obj_decoration_object_parent, obj_npc_parent]))
 {
 	x += h_speed;
 }
-if (!place_meeting(x, y - v_speed, decoration_object_parent))
+if (!place_meeting(x, y - v_speed, [obj_decoration_object_parent, obj_npc_parent]))
 {
 	y -= v_speed;
 }

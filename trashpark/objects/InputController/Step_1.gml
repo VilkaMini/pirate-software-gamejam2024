@@ -3,6 +3,7 @@ global.bt_left = false;
 global.bt_right = false;
 global.bt_up = false;
 global.bt_down = false;
+global.mouse_left_click = false;
 
 
 if (keyboard_check(vk_right) || keyboard_check(ord("D"))){
@@ -16,6 +17,9 @@ if (keyboard_check(vk_up) || keyboard_check(ord("W"))){
 }
 if (keyboard_check(vk_down) || keyboard_check(ord("S"))){
 	global.bt_down = true;
+}
+if (mouse_check_button(mb_left)){
+	global.mouse_left_click = true;
 }
 
 

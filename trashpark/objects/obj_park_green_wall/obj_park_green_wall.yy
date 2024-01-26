@@ -12,8 +12,8 @@
     "path": "folders/Objects/Park.yy",
   },
   "parentObjectId": {
-    "name": "decoration_object_parent",
-    "path": "objects/decoration_object_parent/decoration_object_parent.yy",
+    "name": "obj_decoration_object_parent",
+    "path": "objects/obj_decoration_object_parent/obj_decoration_object_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

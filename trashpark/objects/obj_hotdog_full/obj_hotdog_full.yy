@@ -12,8 +12,8 @@
     "path": "folders/Objects/Trash.yy",
   },
   "parentObjectId": {
-    "name": "trash_parent",
-    "path": "objects/trash_parent/trash_parent.yy",
+    "name": "obj_trash_parent",
+    "path": "objects/obj_trash_parent/obj_trash_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,11 +28,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"trash_type","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"TRASH_FOOD","varType":4,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "Hotdog",
-    "path": "sprites/Hotdog/Hotdog.yy",
+    "name": "spr_hotdog",
+    "path": "sprites/spr_hotdog/spr_hotdog.yy",
   },
   "spriteMaskId": null,
   "visible": true,

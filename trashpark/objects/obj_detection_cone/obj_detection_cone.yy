@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "detectioncone",
-    "path": "sprites/detectioncone/detectioncone.yy",
+    "name": "spr_detection_cone",
+    "path": "sprites/spr_detection_cone/spr_detection_cone.yy",
   },
   "spriteMaskId": null,
   "visible": true,
