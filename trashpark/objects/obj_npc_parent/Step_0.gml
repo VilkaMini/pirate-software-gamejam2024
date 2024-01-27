@@ -1,5 +1,10 @@
 /// @description Npc Step
-
+if (!global.game_running)
+{
+	path_end();
+	image_angle += 10;
+	return;
+}
 
 // Sprite rotatioon
 switch (direction)
@@ -18,7 +23,7 @@ switch (direction)
 		break;
 }
 
-if (random_range(0, 50) < 5){
+if (random_range(0, 200) < 5){
 	var random_dir = random_range(0, 359);
 	var _xx = x + lengthdir_x(10, random_dir);
 	var _yy = y + lengthdir_y(10, random_dir);
@@ -26,6 +31,7 @@ if (random_range(0, 50) < 5){
 	trashId.image_angle = random_range(0, 359);
 	trashId.image_xscale = 0.5;
 	trashId.image_yscale = 0.5;
+	global.total_trash_count += 1;
 }
 
 // Depth filter

@@ -125,6 +125,7 @@
     {"name":"inst_208A8688","path":"rooms/TestRoom/TestRoom.yy",},
     {"name":"inst_299D95F4","path":"rooms/TestRoom/TestRoom.yy",},
     {"name":"inst_7D7BFDA","path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"inst_36FA2618","path":"rooms/TestRoom/TestRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -145,6 +146,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"object_to_trash","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"obj_plastic_bag",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"path_to_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"path_npc_3",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":288.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36FA2618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dumpster","path":"objects/obj_dumpster/obj_dumpster.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":776.0,"y":312.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4851C473","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_park_green_wall","path":"objects/obj_park_green_wall/obj_park_green_wall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":336.0,},

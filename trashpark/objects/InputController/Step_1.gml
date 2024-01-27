@@ -4,6 +4,7 @@ global.bt_right = false;
 global.bt_up = false;
 global.bt_down = false;
 global.mouse_left_click = false;
+global.space_clicked = false;
 
 
 if (keyboard_check(vk_right) || keyboard_check(ord("D"))){
@@ -20,6 +21,10 @@ if (keyboard_check(vk_down) || keyboard_check(ord("S"))){
 }
 if (mouse_check_button(mb_left)){
 	global.mouse_left_click = true;
+}
+if (keyboard_check(vk_space))
+{
+	global.space_clicked = true;
 }
 
 

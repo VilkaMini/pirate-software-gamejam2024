@@ -3,6 +3,17 @@
 h_speed = movement_speed * (global.bt_right - global.bt_left)
 v_speed = movement_speed * (global.bt_up - global.bt_down)
 
+if (!global.game_running) return;
+
+if (collision_rectangle(x-10, y-10, x+10, y+10, obj_dumpster, true, true))
+{
+	global.near_dumpster = true;
+}
+else
+{
+	global.near_dumpster = false;
+}
+
 if (!place_meeting(x + h_speed, y, [obj_decoration_object_parent, obj_npc_parent]))
 {
 	x += h_speed;
