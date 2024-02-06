@@ -114,7 +114,6 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_decoration_object_parent","path":"objects/obj_decoration_object_parent/obj_decoration_object_parent.yy",},},
     {"id":{"name":"spr_half_eaten_Hotdog","path":"sprites/spr_half_eaten_Hotdog/spr_half_eaten_Hotdog.yy",},},
-    {"id":{"name":"StartScreenController","path":"objects/StartScreenController/StartScreenController.yy",},},
     {"id":{"name":"spr_big_dumpster","path":"sprites/spr_big_dumpster/spr_big_dumpster.yy",},},
     {"id":{"name":"spr_toast","path":"sprites/spr_toast/spr_toast.yy",},},
     {"id":{"name":"path_npc_2","path":"paths/path_npc_2/path_npc_2.yy",},},

@@ -27,6 +27,7 @@ if (!global.game_running)
 	draw_set_halign(fa_center);
 	draw_set_colour(c_red);
 	draw_text_transformed(_vx/2,_vy/2, "GAME OVER", 1, 1, 0);
+	
 }
 
 if (global.near_dumpster)

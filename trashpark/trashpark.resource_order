@@ -66,7 +66,6 @@
     {"name":"spr_hotdog","order":2,"path":"sprites/spr_hotdog/spr_hotdog.yy",},
     {"name":"spr_trashRobot_down","order":1,"path":"sprites/spr_trashRobot_down/spr_trashRobot_down.yy",},
     {"name":"spr_npc_walking_back","order":3,"path":"sprites/spr_npc_walking_back/spr_npc_walking_back.yy",},
-    {"name":"StartScreenController","order":3,"path":"objects/StartScreenController/StartScreenController.yy",},
     {"name":"spr_big_dumpster","order":9,"path":"sprites/spr_big_dumpster/spr_big_dumpster.yy",},
     {"name":"spr_toast","order":4,"path":"sprites/spr_toast/spr_toast.yy",},
     {"name":"path_npc_2","order":1,"path":"paths/path_npc_2/path_npc_2.yy",},
