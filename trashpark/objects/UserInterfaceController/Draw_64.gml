@@ -9,7 +9,7 @@ if (global.draw_item_amount_ui)
 		draw_set_colour(c_yellow);
 		draw_text_transformed(12, 10+v_item_offset*i, ":", 0.5, 0.5, 0);
 		
-		if (global.trash_type_counts[i] < global.trash_cap)
+		if (global.trash_type_counts[i] < global.trash_cap[i])
 		{
 			draw_set_colour(c_yellow);
 		}

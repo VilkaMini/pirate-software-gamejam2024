@@ -5,6 +5,5 @@ function GrayScaleUniformLayerBegin(){
       shader_set(BlackWhiteShader);
       shader_params = shader_get_uniform(BlackWhiteShader, "grayscaleModifier");
       shader_set_uniform_f(shader_params, global.grayscale_modifier);
-	  show_debug_message([layer, "  ", global.grayscale_modifier]);
 	}
 }

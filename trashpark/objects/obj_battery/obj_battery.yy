@@ -2,11 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_battery",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trash_parent","path":"objects/obj_trash_parent/obj_trash_parent.yy",},"propertyId":{"name":"trash_type","path":"objects/obj_trash_parent/obj_trash_parent.yy",},"value":"TRASH_ELECTRONIC",},
+  ],
   "parent": {
     "name": "Trash",
     "path": "folders/Objects/Trash.yy",
@@ -28,9 +28,7 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"trash_type","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"TRASH_ELECTRONIC","varType":4,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
     "name": "spr_battery",

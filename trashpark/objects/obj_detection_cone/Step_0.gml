@@ -14,7 +14,8 @@ var _num = instance_place_list(x, y, obj_trash_parent, _list, false);
 
 for (var _i=0; _i<_num; _i++)
 {
-	if (global.trash_type_counts[_list[| _i].trash_type] < global.trash_cap)
+	var _trash_obj_temp = _list[| _i];
+	if (global.trash_type_counts[_trash_obj_temp.trash_type] < global.trash_cap[_trash_obj_temp.trash_type])
 	{
 		global.trash_type_counts[_list[| _i].trash_type] += 1;
 		global.total_trash_count -= 1;
@@ -25,3 +26,6 @@ for (var _i=0; _i<_num; _i++)
 	
 	// TODO Can add sucking animation, aka iterating bring all objects closer and check if they are close enough to despawn too
 }
+
+
+
