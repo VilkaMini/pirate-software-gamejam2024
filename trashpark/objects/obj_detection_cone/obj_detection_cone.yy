@@ -4,6 +4,7 @@
   "name": "obj_detection_cone",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,12 +29,14 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"active_player_id","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"movement_dir_angle","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"trash_pickup_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"trash_suction_speed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.2","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"area_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_detection_cone","varType":5,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_detection_cone",
-    "path": "sprites/spr_detection_cone/spr_detection_cone.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
